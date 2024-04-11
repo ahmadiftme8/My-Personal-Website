@@ -1,0 +1,28 @@
+nav div:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.118);
+    
+}
+
+section{
+    margin-top: 2rem;
+}
+
+main{
+    row-gap: 0;
+}
+
+.skill-section{
+    background-color: rgb(68, 68, 68);
+}
+
+.skills-content-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+
+.skills-content-container ul{
+    padding-left: 1rem;
+}
