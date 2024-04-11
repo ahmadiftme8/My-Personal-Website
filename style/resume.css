@@ -1,4 +1,4 @@
-nav div:nth-child(2){
+nav div:nth-child(3){
     background-color: rgba(255, 255, 255, 0.118);
     
 }
@@ -25,4 +25,8 @@ main{
 
 .skills-content-container ul{
     padding-left: 1rem;
+}
+
+nav div:nth-child(1){
+    background-color: transparent;
 }
