@@ -1,0 +1,66 @@
+.post-main-text-container{
+    background: transparent;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    row-gap: 0.8rem;
+    border: none;
+}
+
+.post-main-text-container div{
+    height: 4rem;
+    
+}
+.post-main-text-container div button{
+    border: none;
+   color: white;
+    background-color: rgba(74, 74, 74, 0.456);
+    border-radius: 1.3rem;
+    cursor: pointer;
+}
+
+.post-main-text-container div button:hover{
+    filter: brightness(2);
+}
+
+.tlg-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap:0.5rem;
+}
+.insta-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    
+}
+.yt-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    
+}
+.wsa-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap:0.5rem;
+}
+
+
+section{
+    border: none;
+   /*  border: 1px solid grey; */
+    padding: 0;
+    
+}
+
+nav div:nth-child(4){
+    background-color: rgba(255, 255, 255, 0.118);
+}
+
+
+
