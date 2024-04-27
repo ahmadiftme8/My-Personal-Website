@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="StyleGeneral.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Fatemeh Ahmadi</title>
     
 </head>
@@ -27,13 +28,13 @@
     </div>
     
     <!-- Hedaer Section -->
-    <header class="page-header">
+    <header class="page-header" data-aos="fade-down" data-aos-delay="10">
         <img class="main-profile-img" src="images/IMG_5584.JPG" alt="">
         <h1 class="page-title">Fatemeh Ahmadi</h1>
         <h5 class="page-subtitle">A Front End Developer</h5>
     </header>
 
-    <nav >
+    <nav data-aos="fade-up" data-aos-delay="600">
 
         <div>
             <svg class="svg-icon" style="width: 1.5em; height: 1.5em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M512 469.333333a170.666667 170.666667 0 1 0-170.666667-170.666666 170.666667 170.666667 0 0 0 170.666667 170.666666zM768 896a42.666667 42.666667 0 0 0 42.666667-42.666667 298.666667 298.666667 0 0 0-597.333334 0 42.666667 42.666667 0 0 0 42.666667 42.666667z"  /></svg>
@@ -57,7 +58,7 @@
         
     </nav>
 
-    <section class="quote-section">
+    <section class="quote-section" data-aos="fade-up" data-aos-delay="800">
         <p>A complex system that works is invariably found to have evolved from a simple system that worked. <span>-Gall's law</span> </p>
     </section>
 
@@ -163,6 +164,14 @@
 
     <footer>created by ftme ahmadi</footer>
 
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 200, // values from 0 to 3000, with step 50ms
+        duration: 1500, // values from 0 to 3000, with step 50ms
+      });
+    </script>
     <script src="JavaScript.js"></script>
 </body>
 </html>
