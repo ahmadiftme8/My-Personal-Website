@@ -95,7 +95,7 @@ nav div{
     align-items: center;
     /* border: 1px solid white; */
     /* border-right:2px solid rgb(178, 178, 178) ; */
-    border-right:2px solid var(--primary-color) ;
+    border-right:1px solid var(--primary-color) ;
 }
 
 
@@ -405,10 +405,11 @@ footer{
     border-radius: 50%;
     
   }
-.sun-icon{
+.sun-icon {
     fill: var(--primary-color);
     cursor: pointer;
 }
+
 
 
 .sun-icon svg{
@@ -418,6 +419,11 @@ footer{
    right: 1rem;
    top: 1rem;
 }
+
+.sun-icon svg:hover{
+    filter: brightness(1.5);
+    cursor: pointer;
+    }
 
 
 
