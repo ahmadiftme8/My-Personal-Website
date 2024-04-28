@@ -33,7 +33,7 @@
 
 
 .nav-overlay{
-    background-color: rgba(12, 38, 39, 0.41);
+    background-color: rgba(12, 38, 39, 0.277);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -62,8 +62,9 @@ position: fixed;
 right: 0;
 left: 0;
 top: 0;
-bottom: 1rem;
+bottom: 0;
 display: grid;
+
 
 
 }
@@ -91,6 +92,7 @@ align-items: center;
 }
 .nav-overlay li:nth-last-of-type(1){
     background-color:rgb(34, 114, 104) ;
+    padding-bottom: 4rem;
     
     
 }
