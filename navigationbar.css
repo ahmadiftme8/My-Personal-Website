@@ -72,36 +72,40 @@ display: grid;
 display: flex;
 justify-content: center;
 align-items: center;
+border-bottom: 1px solid var(--primary-color);
 
 
 }
 .nav-overlay li:nth-last-of-type(4){
-    background-color:var(--primary-color) ;
+    background-color: var(--secondary-color) ;
+
+   
     
     
 }
 .nav-overlay li:nth-last-of-type(3){
-    background-color:rgb(24, 65, 66);
+    background-color: var(--secondary-color) ;
     
     
 }
 .nav-overlay li:nth-last-of-type(2){
-    background-color:rgb(22, 79, 81) ;
+    background-color:var(--secondary-color) ;
     
     
 }
 .nav-overlay li:nth-last-of-type(1){
-    background-color:rgb(34, 114, 104) ;
+    background-color: var(--secondary-color) ;
     padding-bottom: 4rem;
     
     
 }
 .nav-overlay ul li a{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     letter-spacing: 1.5px;
     text-transform:uppercase;
     font-weight: 100;
+    
     
     
 }
