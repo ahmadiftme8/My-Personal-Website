@@ -1,0 +1,147 @@
+:root {
+    --primary-color: rgba(15, 46, 47, 1);
+    --secondary-color: #edebe4;
+    --accent-color: #46de46;
+    --background-color: #edebe4;
+    --text-color: #000;
+    --error-color: rgb(255, 91, 91);
+    --success-color: #41eb68;
+    --warning-color: #ffd965;
+    --info-color: #17b8b3;
+    --link-color: #007bff;
+    --border-color: #dee2e6;
+    --muted-color: #6c757d;
+    --btn-text-color: #edebe4;
+  }
+
+
+[data-theme="dark"] {
+      --primary-color: #738484;
+      --secondary-color: #8c8d8d;
+      --accent-color: #46de46;
+      --background-color: #131515;
+      --text-color: #fff;
+      --error-color: rgb(255, 91, 91);
+      --success-color: #28a745;
+      --warning-color: #ffc107;
+      --info-color: #17a2b8;
+      --link-color: #007bff;
+      --border-color: #495057;
+      --muted-color: #adb5bd;
+      --btn-text-color:#131515 ;
+  }
+
+
+.nav-overlay{
+    background-color: rgba(12, 38, 39, 0.694);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    transform: translateX(-100vw);
+
+}
+
+.overlay-slide-right{
+    transition: all 0.4s ease-in-out;
+    transform: translateX(0);
+  }
+  .overlay-slide-left{
+    transition: all 0.8s ease-in-out;
+    transform: translateX(-100vw);
+  }
+
+.nav-overlay ul {
+list-style-type: none;
+margin: 0;
+padding-left: 0;
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+display: grid;
+
+
+}
+.nav-overlay ul li{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.nav-overlay li:nth-last-of-type(4){
+    background-color:var(--primary-color) ;
+    
+    
+}
+.nav-overlay li:nth-last-of-type(3){
+    background-color:rgb(24, 65, 66);
+    
+    
+}
+.nav-overlay li:nth-last-of-type(2){
+    background-color:rgb(22, 79, 81) ;
+    
+    
+}
+.nav-overlay li:nth-last-of-type(1){
+    background-color:rgb(34, 114, 104) ;
+    
+    
+}
+.nav-overlay ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    letter-spacing: 1.5px;
+    text-transform:uppercase;
+    font-weight: 100;
+    
+    
+}
+
+
+/* Menu bar css */
+
+.menu-bar-container {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 11;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  
+  .bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    
+    background-color: #000000;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+ 
+  
+  .change .bar1 {
+    transform: translate(0, 6px) rotate(-45deg);
+    background-color: #ffffff;
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    background-color: #ffffff;
+    
+  }
+
+
+
+
+
+
+/* Menu bar css */
